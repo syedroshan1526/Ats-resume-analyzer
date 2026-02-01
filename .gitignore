@@ -1,0 +1,54 @@
+# Dependencies
+node_modules/
+__pycache__/
+*.pyc
+.env
+.env.local
+.env.production
+venv/
+env/
+
+# Build outputs
+dist/
+build/
+*.zip
+*.tar.gz
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Database
+*.db
+*.sqlite
+
+# Secrets
+SECRET_KEY
+*.key
+*.pem
+*.crt
+*.cert
+
+# Python
+*.egg-info/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Node
+coverage/
+.nyc_output/
+npm-debug.log*
+yarn.lock
+.yarn-integrity
+node_modules/
